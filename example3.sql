@@ -2,8 +2,7 @@ USE world;
 
 SELECT DISTINCT CountryCode as Code 
 FROM city
-WHERE Name LIKE 'A%'
-LIMIT 3;
+WHERE Name LIKE 'A%';
 
 SELECT CountryCode, Name 
 FROM city
